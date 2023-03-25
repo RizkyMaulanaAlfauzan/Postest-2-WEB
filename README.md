@@ -5,7 +5,7 @@ Merupakan Website Informasi mengenai hewan-hewan yang berada di kebun binatang Z
 ## Creator
 > Nama : Rizky Maulana Alfauzan
 
-> NIM  : 
+> NIM  : 2109116001
 
 ## Fitur
 - User dapat membeli tiket
