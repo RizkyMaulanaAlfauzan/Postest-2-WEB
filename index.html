@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Login</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Form Login</div>
+        <div class="title signup">Form Registrasi</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Daftar</label>
+          <div class="slider-tab"></div>
+        </div>
+        <!-- form login -->
+        <div class="form-inner" >
+          <form action="index.html" class="login" method="get" >
+            <pre>
+            </pre>
+            <div class="field">
+              <input type="email" placeholder="Masukan Email " required id="mail">
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Masukan Password" required id="pass">
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <button class="btn" onclick="masuk()">Login</button>
+            </div>
+            <div class="signup-link">Buat akun <a href="">Daftar sekarang</a></div>
+          </form>
+          <!-- form daftar -->
+          <form action="index.html" class="signup" method="get">
+            <div class="field">
+              <input type="text" placeholder="Masukan Nama" id="daf_nama">
+            </div>
+            <div class="field">
+              <input type="email" placeholder="Masukan Email" id="daf_email">
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Masukan Password" id="daf_pass">
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Ulangi password" id="ulang_pass" required>
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <button class="btn" onclick="daftar()">Daftar</button>
+            </div>
+            <div class="signup-link">Sudah punya akun? <a href="">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  <script  src="js/script.js"></script>
+</body>
+</html>
